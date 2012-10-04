@@ -1,0 +1,460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_verification_link  (function)"
+			],
+			[
+				"with",
+				"with_input"
+			],
+			[
+				"Coo",
+				"Cookie	Laravel: Cookie::get()"
+			],
+			[
+				"Redi",
+				"Redirect	Laravel: Redirect::to()"
+			],
+			[
+				"Auth",
+				"Auth	Laravel: Auth::guest()"
+			],
+			[
+				"Cookie",
+				"Cookie	Laravel: Cookie::put()"
+			],
+			[
+				"ba",
+				"background-color	zen:css_properties"
+			],
+			[
+				"Inpu",
+				"Input	Laravel: Input::old()"
+			],
+			[
+				"cou",
+				"country"
+			],
+			[
+				"F",
+				"Form	Laravel: Form::hidden()"
+			],
+			[
+				"dis",
+				"district_id"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"comp",
+				"company"
+			],
+			[
+				"ref",
+				"ref_name"
+			],
+			[
+				"pa",
+				"parent_ref_id"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"fore",
+				"foreach	foreach …"
+			],
+			[
+				"com",
+				"comparator_by_name  (function)"
+			],
+			[
+				"compa",
+				"comparator"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"co",
+				"comparator"
+			],
+			[
+				"array_ky",
+				"array_key_exists"
+			],
+			[
+				"fieldset",
+				"fieldsets"
+			],
+			[
+				"ref_nam",
+				"ref_name_parts"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"selected_items":
+		[
+			[
+				"git:pu",
+				"Git: Push"
+			],
+			[
+				"git:com",
+				"Git: Quick Commit"
+			],
+			[
+				"git:add",
+				"Git: Add..."
+			],
+			[
+				"git:",
+				"Git: Status"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"git:pus",
+				"Git: Push"
+			],
+			[
+				"git:comm",
+				"Git: Commit"
+			],
+			[
+				"git:ad",
+				"Git: Add..."
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git:co",
+				"Git: Commit"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				":wa",
+				":w - Save"
+			],
+			[
+				"git:p",
+				"Git: Push"
+			],
+			[
+				"git:st",
+				"Git: Status"
+			],
+			[
+				"git:a",
+				"Git: Add..."
+			],
+			[
+				"git:lo",
+				"Git: Log All"
+			],
+			[
+				"",
+				"Git: Add..."
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/sapoc.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/sapoc/pages/register.blade.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/config/application.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/sapoc/pages/verification.blade.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/sapoc/pages/login.blade.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/ref.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/forms/ref_test.blade.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/base.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/forms/fieldlist.blade.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/forms/fieldset.blade.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/libraries/rkfieldset.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/public/js/sapoc.js",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/config/models.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/public/css/sapoc.css",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/offers.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/routes.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/forms/auth.blade.php",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/config/refs.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/test.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/libraries/rkutils.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/migrations/2012_09_11_081152_create_refs.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/vendor/pdepend/pdepend/src/test/resources/files/issues/002-009-namespace-declaration.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/layout/main.blade.php",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/search.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/user.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/layout/form.blade.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/models/offer.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/language/en/search.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/models/ref.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/config/search.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/migrations/2012_08_22_180633_create_users.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/forms/fieldset2col.blade.php",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/public/img/truck2.jpg",
+		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/license.txt",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"();\n",
+			"криво",
+			",",
+			"auto_type_name",
+			");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.795350957156,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"routes",
+				"application/routes.php"
+			],
+			[
+				"route",
+				"application/routes.php"
+			],
+			[
+				"ref",
+				"application/controllers/ref.php"
+			],
+			[
+				"layout",
+				"application/views/layout/main.blade.php"
+			],
+			[
+				"rout",
+				"application/routes.php"
+			],
+			[
+				"refs",
+				"application/config/refs.php"
+			],
+			[
+				"off",
+				"application/models/offer.php"
+			],
+			[
+				"fieldset",
+				"application/views/forms/fieldset.blade.php"
+			],
+			[
+				"fieldlist",
+				"application/views/forms/fieldlist.blade.php"
+			],
+			[
+				"sear",
+				"application/controllers/search.php"
+			],
+			[
+				"fields",
+				"application/views/forms/fieldset2col.blade.php"
+			],
+			[
+				"layoutfor",
+				"application/views/layout/form.blade.php"
+			],
+			[
+				"layoutmai",
+				"application/views/layout/main.blade.php"
+			],
+			[
+				"models/of",
+				"application/models/offer.php"
+			],
+			[
+				"migration",
+				"application/migrations/2012_08_22_180633_create_users.php"
+			],
+			[
+				"migra",
+				"application/migrations/2012_08_22_180633_create_users.php"
+			],
+			[
+				"offer",
+				"application/models/offer.php"
+			],
+			[
+				"controlsea",
+				"application/controllers/search.php"
+			],
+			[
+				"models/re",
+				"application/models/ref.php"
+			],
+			[
+				"config/ref",
+				"application/config/refs.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Volumes/Data/Code/etc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true
+}

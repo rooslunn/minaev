@@ -37,6 +37,8 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
+Route::get('task1', 'task1@main');
+
 /*
 |--------------------------------------------------------------------------
 | Application 404 & 500 Error Handlers
