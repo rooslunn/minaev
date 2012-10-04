@@ -1,9 +1,10 @@
 <?php
 
 class Task1_Controller extends Base_Controller {
-    public $resful = true;
+    
+    public $restful = true;
 
-    public function main() {
+    public function get_main() {
         echo '123';
     }
 }
