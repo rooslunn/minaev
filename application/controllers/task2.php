@@ -12,7 +12,7 @@ class Task2_Controller extends Base_Controller {
         return getcwd().self::LOCAL_STORE.$fname; 
     }
 
-    private function load_file($url) {
+    private function load_file0($url) {
         $result = false;
         $newfname = $this->localfname($url);
         $hfile = fopen(self::HTTP_FIX.$url, 'rb');
@@ -27,6 +27,22 @@ class Task2_Controller extends Base_Controller {
             }
             fclose($hfile);
         }
+        return $result;
+    }
+
+    private function load_file($url) {
+        $result = false;
+        $path = $this->localfname($url);
+
+        $fp = fopen($path, 'w');
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_FILE, $fp);
+        if (curl_exec($ch) !== false) {
+            $result = $path;
+        }
+        curl_close($ch);
+        fclose($fp);
+
         return $result;
     }
 
