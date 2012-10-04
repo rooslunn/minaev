@@ -37,7 +37,8 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
-Route::get('task1/(:any)', 'task1@main');
+Route::get('task1/(:all)', 'task1@main');
+Route::post('task2', 'task2@main');
 
 /*
 |--------------------------------------------------------------------------

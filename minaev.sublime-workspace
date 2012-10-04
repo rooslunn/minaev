@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"array_ke",
+				"array_keys"
+			],
+			[
+				"Res",
+				"Response	Laravel: Response::make()"
+			],
+			[
 				"get",
 				"get_verification_link  (function)"
 			],
@@ -80,10 +88,6 @@
 				"comparator"
 			],
 			[
-				"array_ke",
-				"array_key_exists"
-			],
-			[
 				"co",
 				"comparator"
 			],
@@ -103,20 +107,56 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "application/routes.php",
+			"settings":
+			{
+				"buffer_size": 2812,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/controllers/task1.php",
+			"settings":
+			{
+				"buffer_size": 913,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 159.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"git:pus",
+				"Git: Push"
+			],
+			[
+				"git:q",
+				"Git: Quick Commit"
+			],
 			[
 				"git:pu",
 				"Git: Push"
 			],
 			[
+				"git:p",
+				"Git: Push"
+			],
+			[
 				"git:com",
 				"Git: Quick Commit"
+			],
+			[
+				"git:ad",
+				"Git: Add..."
 			],
 			[
 				"git:add",
@@ -131,20 +171,8 @@
 				"Package Control: List Packages"
 			],
 			[
-				"git:pus",
-				"Git: Push"
-			],
-			[
 				"git:comm",
 				"Git: Commit"
-			],
-			[
-				"git:ad",
-				"Git: Add..."
-			],
-			[
-				":w",
-				":w - Save"
 			],
 			[
 				"pack",
@@ -177,10 +205,6 @@
 			[
 				":wa",
 				":w - Save"
-			],
-			[
-				"git:p",
-				"Git: Push"
 			],
 			[
 				"git:st",
@@ -216,6 +240,11 @@
 	},
 	"file_history":
 	[
+		"/Volumes/Data/Code/minaev/application/libraries/evalmath.php",
+		"/Volumes/Data/Code/minaev/application/libraries/evalmath.class.php",
+		"/Volumes/Data/Code/minaev/application/config/task1.php",
+		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Data/Code/minaev/application/controllers/task1.php",
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/sapoc.php",
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/sapoc/pages/register.blade.php",
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/config/application.php",
@@ -233,7 +262,6 @@
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/offers.php",
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/routes.php",
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/views/forms/auth.blade.php",
-		"/Users/david/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/config/refs.php",
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/controllers/test.php",
 		"/Volumes/Data/Code/liks/sapoc.phpfogapp.com/application/libraries/rkutils.php",
@@ -294,8 +322,148 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "application/routes.php",
+					"settings":
+					{
+						"buffer_size": 2812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								916,
+								916
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 296.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/controllers/task1.php",
+					"settings":
+					{
+						"buffer_size": 913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -446,7 +614,7 @@
 		[
 			[
 				"",
-				"/Volumes/Data/Code/etc.sublime-project"
+				"/Users/david/Library/Application Support/Sublime Text 2/Packages/Default/sapoc.sublime-project"
 			]
 		],
 		"width": 380.0
