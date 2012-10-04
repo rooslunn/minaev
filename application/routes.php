@@ -37,7 +37,7 @@ Route::get('/', function()
 	return View::make('home.index');
 });
 
-Route::get('task1', 'task1@main');
+Route::get('task1/(:any)', 'task1@main');
 
 /*
 |--------------------------------------------------------------------------
