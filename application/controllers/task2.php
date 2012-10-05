@@ -9,7 +9,6 @@ class Task2_Controller extends Base_Controller {
     private function localfname($url) {
         $path = parse_url($url, PHP_URL_PATH);
         $fname = pathinfo($path, PATHINFO_BASENAME);
-        echo "$path and $fname\n";
         return getcwd().self::LOCAL_STORE.$fname; 
     }
 
@@ -51,8 +50,6 @@ class Task2_Controller extends Base_Controller {
         $data = json_decode(Input::get('data'));
         $img1 = $this->load_file($data[0]);
         $img2 = $this->load_file($data[1]);
-        echo "$img1 and $img2\n";
-        return;
         $diff = new Imagediff($img1, $img2);
         $koef = $diff->diff() >= 0.6 ? 1 : 0;
         return Response::make($koef)->header('Content-Type', 'text/plain');
