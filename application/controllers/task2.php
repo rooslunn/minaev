@@ -46,12 +46,25 @@ class Task2_Controller extends Base_Controller {
         return $result;
     }
 
+    private function remove_files(array $list) {
+        foreach ($list as $path) {
+            if (is_readable($path)) {
+                unlink($path);
+            }
+        }
+    }
+    
     public function post_main() {
         $data = json_decode(Input::get('data'));
+
         $img1 = $this->load_file($data[0]);
         $img2 = $this->load_file($data[1]);
+
         $diff = new Imagediff($img1, $img2);
         $koef = $diff->diff() >= 0.6 ? 1 : 0;
+
+        $this->remove_files(array($img1, $img2));
+
         return Response::make($koef)->header('Content-Type', 'text/plain');
     }
 }
