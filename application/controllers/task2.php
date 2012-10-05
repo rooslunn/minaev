@@ -53,7 +53,7 @@ class Task2_Controller extends Base_Controller {
             }
         }
     }
-    
+
     public function post_main() {
         $data = json_decode(Input::get('data'));
 
@@ -61,7 +61,7 @@ class Task2_Controller extends Base_Controller {
         $img2 = $this->load_file($data[1]);
 
         $diff = new Imagediff($img1, $img2);
-        $koef = $diff->diff() >= 0.6 ? 1 : 0;
+        $koef = $diff->diff() < 1 ? 0 : 1;
 
         $this->remove_files(array($img1, $img2));
 
