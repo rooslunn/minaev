@@ -38,6 +38,10 @@ Route::get('/', function()
 });
 
 Route::get('task1/(:all)', 'task1@main');
+
+Route::get('task2', function() {
+    return View::make('home.task2');
+});
 Route::post('task2', 'task2@main');
 
 /*

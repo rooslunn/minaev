@@ -54,7 +54,7 @@ class Task2_Controller extends Base_Controller {
         }
     }
 
-    public function post_main() {
+    public function post_main0() {
         $data = json_decode(Input::get('data'));
 
         $img1 = $this->load_file($data[0]);
@@ -66,5 +66,15 @@ class Task2_Controller extends Base_Controller {
         $this->remove_files(array($img1, $img2));
 
         return Response::make($koef)->header('Content-Type', 'text/plain');
+    }
+
+    public function post_main() {
+        $img1 = new Imagick(Input::get('img1'));
+        $img2 = new Imagick(Input::get('img2'));
+
+        $result = $img1->compareImages($img2, Imagick::METRIC_MEANSQUAREERROR);
+        $result[0]->setImageFormat("png");
+
+        return Response::make($result[0])->header('Content-Type', 'image/png');
     }
 }
