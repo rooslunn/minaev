@@ -19,9 +19,9 @@
 -- Current Database: `minaev`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `minaev` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `minaev_phpfogapp_com` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `minaev`;
+USE `minaev_phpfogapp_com`;
 
 --
 -- Table structure for table `laravel_migrations`

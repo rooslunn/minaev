@@ -24,8 +24,7 @@
 $environments = array(
 
 	'local' => array('http://localhost*', '*.local'),
-    'fog' => array('http://minaev.phpfogapp.com/*'),
-
+    'fog' => array('http://minaev.phpfogapp.com*'),
 );
 
 // --------------------------------------------------------------
