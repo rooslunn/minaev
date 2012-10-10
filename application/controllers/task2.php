@@ -54,7 +54,7 @@ class Task2_Controller extends Base_Controller {
         }
     }
 
-    public function post_main0() {
+    public function post_main() {
         $data = json_decode(Input::get('data'));
 
         $img1 = $this->load_file($data[0]);
@@ -68,7 +68,7 @@ class Task2_Controller extends Base_Controller {
         return Response::make($koef)->header('Content-Type', 'text/plain');
     }
 
-    public function post_main() {
+    public function post_main1() {
         $img1 = new Imagick(Input::get('img1'));
         $img2 = new Imagick(Input::get('img2'));
 

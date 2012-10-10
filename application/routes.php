@@ -32,6 +32,16 @@
 |
 */
 
+Log::info(sprintf("%s %s %s Seg[%d]: %s %s %s",
+    Request::method(),
+    URI::full(),
+    Request::ip(),
+    Router::$segments,
+    URI::segment(1, '-'),
+    URI::segment(2, '-'),
+    URI::segment(3, '-')
+));
+
 Route::get('/', function()
 {
 	return View::make('home.index');
@@ -39,9 +49,9 @@ Route::get('/', function()
 
 Route::get('task1/(:all)', 'task1@main');
 
-Route::get('task2', function() {
-    return View::make('home.task2');
-});
+// Route::get('task2', function() {
+//     return View::make('home.task2');
+// });
 Route::post('task2', 'task2@main');
 
 /*

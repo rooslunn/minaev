@@ -69,10 +69,10 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => 'localhost',
-			'database' => 'minaev',
-			'username' => 'root',
-			'password' => '',
+			'host'     => getenv('MYSQL_DB_HOST'),
+			'database' => getenv('MYSQL_DB_NAME'),
+			'username' => getenv('MYSQL_USERNAME'),
+			'password' => getenv('MYSQL_PASSWORD'),
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
