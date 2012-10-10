@@ -35,7 +35,11 @@ return array(
 	| Default Database Connection
 	|--------------------------------------------------------------------------
 	|
+<<<<<<< HEAD
 	| The name of your default database connection. This connection will be used
+=======
+	| The name of your default database connection. This connection will used
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	| as the default for all database operations unless a different name is
 	| given when performing said operation. This connection name should be
 	| listed in the array of connections below.
@@ -54,7 +58,11 @@ return array(
 	| the freedom to specify as many connections as you can handle.
 	|
 	| All database work in Laravel is done through the PHP's PDO facilities,
+<<<<<<< HEAD
 	| so make sure you have the PDO drivers for your particular database of
+=======
+	| so make sure you have the PDO drivers for your particlar database of
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	| choice installed on your machine.
 	|
 	*/
@@ -69,10 +77,17 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
+<<<<<<< HEAD
 			'host'     => getenv('MYSQL_DB_HOST'),
 			'database' => getenv('MYSQL_DB_NAME'),
 			'username' => getenv('MYSQL_USERNAME'),
 			'password' => getenv('MYSQL_PASSWORD'),
+=======
+			'host'     => 'localhost',
+			'database' => 'database',
+			'username' => 'root',
+			'password' => '',
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
@@ -85,7 +100,10 @@ return array(
 			'password' => '',
 			'charset'  => 'utf8',
 			'prefix'   => '',
+<<<<<<< HEAD
             'schema'   => 'public',
+=======
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 		),
 
 		'sqlsrv' => array(
@@ -122,4 +140,8 @@ return array(
 
 	),
 
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6

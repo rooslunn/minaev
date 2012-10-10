@@ -29,7 +29,11 @@ return array(
 	| This key will be prepended to item keys stored using Memcached and APC
 	| to prevent collisions with other applications on the server. Since the
 	| memory based stores could be shared by other applications, we need to
+<<<<<<< HEAD
 	| be polite and use a prefix to uniquely identify our items.
+=======
+	| be polite and use a prefix to uniquely identifier our items.
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	|
 	*/
 

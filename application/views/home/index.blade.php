@@ -18,7 +18,11 @@
 		</header>
 		<div role="main" class="main">
 			<div class="home">
+<<<<<<< HEAD
 				<h2>Learn the terrain.</h2>
+=======
+				<h2>Learn the terrain.</h3>
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 
 				<p>
 					You've landed yourself on our default home page. The route that
@@ -29,12 +33,20 @@
 
 				<p>And the view sitting before you can be found at:</p>
 
+<<<<<<< HEAD
 				<pre>{{ path('app') }}views/home/index.blade.php</pre>
+=======
+				<pre>{{ path('app') }}views/home/index.php</pre>
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 
 				<h2>Grow in knowledge.</h2>
 
 				<p>
+<<<<<<< HEAD
 					Learning to use Laravel is amazingly simple thanks to
+=======
+					Leaning to use Laravel is amazingly simple thanks to
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 					its {{ HTML::link('docs', 'wonderful documentation') }}.
 				</p>
 

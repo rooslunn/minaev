@@ -8,7 +8,11 @@ return array(
 	|--------------------------------------------------------------------------
 	|
 	| The URL used to access your application without a trailing slash. The URL
+<<<<<<< HEAD
 	| does not have to be set. If it isn't, we'll try our best to guess the URL
+=======
+	| does not have to be set. If it isn't we'll try our best to guess the URL
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	| of your application.
 	|
 	*/
@@ -48,7 +52,11 @@ return array(
 	|
 	| This key is used by the encryption and cookie classes to generate secure
 	| encrypted strings and hashes. It is extremely important that this key
+<<<<<<< HEAD
 	| remains secret and it should not be shared with anyone. Make it about 32
+=======
+	| remain secret and should not be shared with anyone. Make it about 32
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	| characters of random gibberish.
 	|
 	*/
@@ -63,7 +71,11 @@ return array(
 	| Laravel includes a beautiful profiler toolbar that gives you a heads
 	| up display of the queries and logs performed by your application.
 	| This is wonderful for development, but, of course, you should
+<<<<<<< HEAD
 	| disable the toolbar for production applications.
+=======
+	| disable the toolbar for production applications..
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	|
 	*/
 
@@ -84,7 +96,11 @@ return array(
 
 	/*
 	|--------------------------------------------------------------------------
+<<<<<<< HEAD
 	| Default Application Language
+=======
+	| Application Language
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	|--------------------------------------------------------------------------
 	|
 	| The default language of your application. This language will be used by
@@ -99,7 +115,11 @@ return array(
 	| SSL Link Generation
 	|--------------------------------------------------------------------------
 	|
+<<<<<<< HEAD
 	| Many sites use SSL to protect their users' data. However, you may not be
+=======
+	| Many sites use SSL to protect their users data. However, you may not be
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	| able to use SSL on your development machine, meaning all HTTPS will be
 	| broken during development.
 	|

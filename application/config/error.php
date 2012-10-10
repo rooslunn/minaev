@@ -9,7 +9,11 @@ return array(
 	|
 	| Here you simply specify the error levels that should be ignored by the
 	| Laravel error handler. These levels will still be logged; however, no
+<<<<<<< HEAD
 	| information about them will be displayed.
+=======
+	| information about about them will be displayed.
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	|
 	*/
 
@@ -56,7 +60,11 @@ return array(
 	| logging is enabled. 
 	|
 	| You may log the error message however you like; however, a simple log
+<<<<<<< HEAD
 	| solution has been set up for you which will log all error messages to
+=======
+	| solution has been setup for you which will log all error messages to
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	| text files within the application storage directory.
 	|
 	*/

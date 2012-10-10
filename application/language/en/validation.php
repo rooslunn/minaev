@@ -24,7 +24,10 @@ return array(
 	"alpha"          => "The :attribute may only contain letters.",
 	"alpha_dash"     => "The :attribute may only contain letters, numbers, and dashes.",
 	"alpha_num"      => "The :attribute may only contain letters and numbers.",
+<<<<<<< HEAD
 	"array"          => "The :attribute must have selected elements.",
+=======
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	"before"         => "The :attribute must be a date before :date.",
 	"between"        => array(
 		"numeric" => "The :attribute must be between :min - :max.",
@@ -32,10 +35,13 @@ return array(
 		"string"  => "The :attribute must be between :min - :max characters.",
 	),
 	"confirmed"      => "The :attribute confirmation does not match.",
+<<<<<<< HEAD
 	"count"          => "The :attribute must have exactly :count selected elements.",
 	"countbetween"   => "The :attribute must have between :min and :max selected elements.",
 	"countmax"       => "The :attribute must have less than :max selected elements.",
 	"countmin"       => "The :attribute must have at least :min selected elements.",
+=======
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	"different"      => "The :attribute and :other must be different.",
 	"email"          => "The :attribute format is invalid.",
 	"exists"         => "The selected :attribute is invalid.",

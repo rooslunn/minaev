@@ -23,7 +23,11 @@ return array(
 	| Session Database
 	|--------------------------------------------------------------------------
 	|
+<<<<<<< HEAD
 	| The database table in which the session should be stored. It probably
+=======
+	| The database table on which the session should be stored. It probably
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	| goes without saying that this option only matters if you are using
 	| the super slick database session driver.
 	|

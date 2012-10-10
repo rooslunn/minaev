@@ -8,7 +8,11 @@ return array(
 	|--------------------------------------------------------------------------
 	|
 	| This array contains the singular and plural forms of words. It's used by
+<<<<<<< HEAD
 	| the "singular" and "plural" methods in the Str class to convert a given
+=======
+	| the "singular" and "plural" methods on the Str class to convert a given
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	| word from singular to plural and vice versa.
 	|
 	| Note that the regular expressions are only for inflecting English words.

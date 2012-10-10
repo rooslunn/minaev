@@ -38,7 +38,11 @@ function document_exists($page)
 }
 
 /**
+<<<<<<< HEAD
  * Attach the sidebar to the documentation template.
+=======
+ * Attach the sidebar to the documentatoin template.
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
  */
 View::composer('docs::template', function($view)
 {
@@ -68,7 +72,11 @@ Route::get('(:bundle)/(:any)/(:any?)', function($section, $page = null)
 
 	// If no page was specified, but a "home" page exists for the section,
 	// we'll set the file to the home page so that the proper page is
+<<<<<<< HEAD
 	// displayed back out to the client for the requested doc page.
+=======
+	// display back out to the client for the requested doc page.
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 	if (is_null($page) and document_exists($file.'/home'))
 	{
 		$file .= '/home';

@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 #!/usr/bin/env php
+=======
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
 <?php
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
+<<<<<<< HEAD
  * @version  3.2.5
+=======
+ * @version  3.2.1
+>>>>>>> baa91818e7554af82b465684c2cbe8c8035086c6
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  * @link     http://laravel.com
  */
