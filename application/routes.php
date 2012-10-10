@@ -32,12 +32,12 @@
 |
 */
 
-$log_mes = sprintf("%s %s %s",
-    Request::method(),
-    URI::full(),
-    Request::ip()
-);
-DB::table('logs')->insert(array('message'=>$log_mes));
+// $log_mes = sprintf("%s %s %s",
+//     Request::method(),
+//     URI::full(),
+//     Request::ip()
+// );
+// DB::table('logs')->insert(array('message'=>$log_mes));
 
 Route::get('/', function()
 {
