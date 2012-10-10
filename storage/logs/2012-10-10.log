@@ -3,3 +3,5 @@
 2012-10-10 18:00:37 INFO - POST http://minaev.local/task2?data=%5B%22minaev.local%2Fimg%2Fimg1.jpg%22%2C%20%22minaev.local%2Fimg%2Fimg2.png%22%5D 127.0.0.1 Seg[5]: task2 - -
 2012-10-10 18:01:16 INFO - POST http://minaev.local/task2?data=%5B%22minaev.local%2Fimg%2Fimg1.jpg%22%2C%20%22minaev.local%2Fimg%2Fimg2.png%22%5D 127.0.0.1 Seg[5]: task2 - -
 2012-10-10 18:02:05 INFO - POST http://minaev.local/task2?data=%5B%22minaev.local%2Fimg%2Fimg1.jpg%22%2C%20%22minaev.local%2Fimg%2Fimg2.png%22%5D 127.0.0.1 Seg[5]: task2 - -
+2012-10-10 18:16:07 INFO - POST http://minaev.local/task2?data=%5B%22minaev.local%2Fimg%2Fimg1.jpg%22%2C%20%22minaev.local%2Fimg%2Fimg2.png%22%5D 127.0.0.1 Seg[5]: task2 - -
+2012-10-10 18:16:09 INFO - POST http://minaev.local/task2?data=%5B%22minaev.local%2Fimg%2Fimg1.jpg%22%2C%20%22minaev.local%2Fimg%2Fimg2.png%22%5D 127.0.0.1 Seg[5]: task2 - -
