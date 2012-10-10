@@ -54,8 +54,17 @@ class Task2_Controller extends Base_Controller {
         }
     }
 
+    private function db_log($mes, $kind) {
+        DB::table('logs')->insert(array(
+            'message' => sprintf('%s %s', $kind, $mes)
+        ));
+    }
+
     public function post_main() {
         $data = json_decode(Input::get('data'));
+        $this->db_log(print_r($data, true), 'DATA');
+        $this->db_log(print_r(Input::json(), true), 'JSON');
+
 
         $img1 = $this->load_file($data[0]);
         $img2 = $this->load_file($data[1]);
