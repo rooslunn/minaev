@@ -9,7 +9,11 @@ class Create_Logs {
 	 */
 	public function up()
 	{
-		//
+		Schema::create('logs', function($table) {
+			$table->increments('id');
+			$table->string('message');
+			$table->timestamps();
+		});
 	}
 
 	/**
@@ -19,7 +23,7 @@ class Create_Logs {
 	 */
 	public function down()
 	{
-		//
+		Schema::drop('logs');
 	}
 
 }
